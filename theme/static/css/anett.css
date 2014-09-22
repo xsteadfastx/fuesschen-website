@@ -246,3 +246,6 @@ img {
     border-bottom: 1px solid #DFDFDF;
     color: #395D33;
 }
+.pure-g [class*="pure-u"]{
+    font-family: 'Open Sans Condensed', sans-serif;
+}

@@ -41,3 +41,6 @@ THEME = 'theme'
 
 # static paths will be copied under the same name
 STATIC_PATHS = ['images']
+
+# typogrify
+TYPOGRIFY = True
