@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Anett Gericke'
 SITENAME = 'Fusspflege Gericke'
-SITEURL = ''
+SITEURL = 'http://xsteadfastx.github.io/fuesschen-website'
 
 PATH = 'content'
 
