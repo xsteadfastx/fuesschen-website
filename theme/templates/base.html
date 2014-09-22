@@ -16,7 +16,9 @@
 		<a href="{{ SITEURL }}/index.html" class="pure-menu-heading">{{ SITENAME }}</a>
     <ul>
 			{% for page in PAGES|sort(attribute='title') %}
-			<li><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></li>
+				{% if page.title != 'Willkommen' %}
+				<li><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></li>
+				{% endif %}
 			{% endfor %}
     </ul>
 	</div>
@@ -35,7 +37,7 @@
 	{% block footer %}
 	<div class="footer l-box">
     <p>
-			<a href="#">Try now</a> for 14 days. No credit card required. Header image courtesy of <a href='http://unsplash.com/'>Unsplash</a>.
+			Headerimage cc-by <a href="https://flic.kr/p/euG6VT">Tobias Lindman</a>.
     </p>
 	</div>
 	{% endblock %}

@@ -19,7 +19,10 @@ p {
     line-height: 1.6em;
     font-family: 'Open Sans Condensed', sans-serif;
 }
-
+img {
+    border: 0px none;
+    width: 100%;
+}
 
 /*
  * -- Layout Styles --
@@ -49,10 +52,10 @@ p {
  */
 
 .banner {
-    background: transparent url('http://www.cosmeticlounge-demharter.de/wp-content/uploads/2014/07/Fotolia_7060373_M.jpg') 0 0 no-repeat fixed;
+    background: transparent url('/images/header.jpg') 0 0 no-repeat fixed;
     text-align: center;
     background-size: cover;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.cosmeticlounge-demharter.de/wp-content/uploads/2014/07/Fotolia_7060373_M.jpg', sizingMethod='scale');
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/header.jpg', sizingMethod='scale');
 
     height: 200px;
     width: 100%;
@@ -64,7 +67,7 @@ p {
         display: table-cell;
         vertical-align: middle;
         margin-bottom: 0;
-        font-size: 2em;
+        font-size: 5em;
         color: white;
         font-weight: 500;
         text-shadow: 0 1px 1px black;
@@ -226,7 +229,7 @@ p {
         height: 400px;
     }
     .banner-head {
-        font-size: 3em;
+        font-size: 5em;
     }
 }
 
@@ -234,12 +237,10 @@ p {
  * -- OWN STUFF --
  */
 .pure-menu .pure-menu-heading {
-    color: #565D64;
     text-transform: uppercase;
-    font-size: 160%;
+    font-size: 200%;
     margin-top: 0.5em;
     border-bottom: 1px solid #DFDFDF;
-    color: #395D33;
 }
 .pure-g [class*="pure-u"]{
     font-family: 'Open Sans Condensed', sans-serif;
