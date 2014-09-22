@@ -233,11 +233,6 @@ p {
 /*
  * -- OWN STUFF --
  */
-img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-}
 .pure-menu .pure-menu-heading {
     color: #565D64;
     text-transform: uppercase;
