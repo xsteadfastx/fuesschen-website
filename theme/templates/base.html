@@ -13,7 +13,7 @@
 <body>
 	{% block menu %}
 	<div class="pure-menu pure-menu-open pure-menu-horizontal">
-		<a href="#" class="pure-menu-heading">{{ SITENAME }}</a>
+		<a href="{{ SITEURL }}/index.html" class="pure-menu-heading">{{ SITENAME }}</a>
     <ul>
 			{% for page in PAGES|sort(attribute='title') %}
 			<li><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></li>

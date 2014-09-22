@@ -191,7 +191,7 @@ p {
 }
 
 .footer {
-    background: #111;
+    background: #395D33;
     color: #888;
     text-align: center;
 }
@@ -244,4 +244,5 @@ img {
     font-size: 160%;
     margin-top: 0.5em;
     border-bottom: 1px solid #DFDFDF;
+    color: #395D33;
 }
