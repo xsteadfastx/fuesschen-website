@@ -52,10 +52,10 @@ img {
  */
 
 .banner {
-    background: transparent url('http://xsteadfastx.github.io/fuesschen-website/images/header.jpg') 0 0 no-repeat fixed;
+    background: transparent url('{{ SITEURL }}/images/header.jpg') 0 0 no-repeat fixed;
     text-align: center;
     background-size: cover;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://xsteadfastx.github.io/fuesschen-website/images/header.jpg', sizingMethod='scale');
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='{{ SITEURL }}/images/header.jpg', sizingMethod='scale');
 
     height: 200px;
     width: 100%;

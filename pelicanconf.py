@@ -44,3 +44,7 @@ STATIC_PATHS = ['images']
 
 # typogrify
 TYPOGRIFY = True
+
+# plugins
+PLUGIN_PATHS = ['pelican-plugins']
+PLUGINS = ['render_css']
