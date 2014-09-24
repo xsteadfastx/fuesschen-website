@@ -1,7 +1,7 @@
 title: Kontakt
 image: 5.jpg
 
-![Portrait](http://xsteadfastx.github.io/fuesschen-website/images/6.jpg)
+![Portrait]({filename}/images/6.jpg)
 
 Termine nach Vereinbarung
 
