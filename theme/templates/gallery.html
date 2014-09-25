@@ -12,8 +12,8 @@
 <div class="l-content">
 	<div class="pure-g">
 		{% for image in page.gallery.get(page.title) %}
-		<div class="pure-u-1-{{ page.gallery.get(page.title)|length }}">
-			<img src="{{ SITEURL }}/images/gallery/{{ page.title }}/{{ image }}"></li>
+		<div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+			<img class="pure-img" src="{{ SITEURL }}/images/gallery/{{ page.title }}/{{ image }}"></li>
 		</div>
 		{% endfor %}
 	</div>
