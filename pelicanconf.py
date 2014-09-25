@@ -47,4 +47,4 @@ TYPOGRIFY = True
 
 # plugins
 PLUGIN_PATHS = ['pelican-plugins']
-PLUGINS = ['render_css']
+PLUGINS = ['render_css', 'gallery']
