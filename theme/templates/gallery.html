@@ -1,5 +1,18 @@
 {% extends "base.html" %}
 
+{% block styles %}
+{{ super() }}
+<link rel="stylesheet" href="{{ SITEURL }}/theme/css/colorbox.css">
+{% endblock %}
+
+{% block scripts %}
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="{{ SITEURL }}/theme/js/jquery.colorbox-min.js"></script>
+<script>
+	jQuery('a.gallery').colorbox({rel:'gallery', transition:"fade", width:"75%", height:"75%"});
+</script>
+{% endblock %}
+
 {% block banner %}
 <div class="banner">
 	<h1 class="banner-head">
@@ -14,7 +27,7 @@
 		{% for image in page.gallery.get(page.title) %}
 		<div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
 			<div class="l-box">
-				<img class="pure-img" src="{{ SITEURL }}/images/gallery/{{ page.title }}/{{ image }}"></li>
+				<a class="gallery" href="{{ SITEURL }}/images/gallery/{{ page.title }}/{{ image }}"><img class="pure-img" src="{{ SITEURL }}/images/gallery/{{ page.title }}/{{ image }}"></a>
 			</div>
 		</div>
 		{% endfor %}
